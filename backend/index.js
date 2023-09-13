@@ -298,3 +298,133 @@ app.use(path.ingredientes, router.get('/req21', async (req, res)=>{
         console.log(error);
     }
 }));
+
+//22//
+
+app.use(path.ingredientes, router.get('/req22', async (req, res)=>{
+    try {
+        const collection = db.collection('Ingredientes');
+        await collection.updateOne({nombre:'Pan'},{$set:{descripcion:'Pan fresco y crujiente'}});
+        const result = await collection.find({nombre:'Pan'}).toArray();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
+
+//23//
+
+app.use(path.hamburguesas, router.get('/req23', async (req, res)=>{
+    try {
+        const collection = db.collection('Hamburguesas');
+        const result = await collection.find({$or:[{ingredientes:'Tomate'},{ingredientes:'Lechuga'}]}).toArray();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
+
+
+//24//
+
+app.use(path.chefs, router.get('/req24', async (req, res)=>{
+    try {
+        const collection = db.collection('Chefs');
+        const result = await collection.find({nombre:{$ne:'ChefA'}}).toArray();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
+
+//25//
+
+app.use(path.hamburguesas, router.get('/req25', async (req, res)=>{
+    try {
+        const collection = db.collection('Hamburguesas');
+        await collection.updateMany({},{$inc:{precio:2}});
+        const result = await collection.find().toArray();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
+
+//26//
+
+app.use(path.ingredientes, router.get('/req26', async (req, res)=>{
+    try {
+        const collection = db.collection('Ingredientes');
+        const result = await collection.find().sort({nombre:1}).toArray();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
+
+//27//
+
+app.use(path.hamburguesas, router.get('/req27', async (req, res)=>{
+    try {
+        const collection = db.collection('Hamburguesas');
+        const result = await collection.find().sort({precio:-1}).limit(1).toArray();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
+
+//28//
+
+app.use(path.hamburguesas, router.get('/req28', async (req, res)=>{
+    try {
+        const collection = db.collection('Hamburguesas');
+        await collection.updateMany({categoria:'Clásica'},{$push: {ingredientes:'Pepinillos'}})
+        const result = await collection.find({categoria:'Clásica'}).toArray();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
+
+//29//
+
+app.use(path.chefs, router.get('/req29', async (req, res)=>{
+    try {
+        const collection = db.collection('Chefs');
+        const result = await collection.deleteMany({especialidad:'Cocina Vegetariana'});
+        if(result.deletedCount>0){
+            res.send(`Se elimaron los chefs`)
+        }
+        else{
+            res.send(`No cumple las condiciones`)
+        }
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
+
+//30//
+
+app.use(path.hamburguesas, router.get('/req30', async (req, res)=>{
+    try {
+        const collection = db.collection('Hamburguesas');
+        const result = await collection.find({ingredientes:{$size:7}}).toArray();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
+
+//31//
+
+app.use(path.hamburguesas, router.get('/req30', async (req, res)=>{
+    try {
+        const collection = db.collection('Hamburguesas');
+        const result = await collection.find().toArray();
+        res.send(result);
+    } catch (error) {
+        console.log(error);
+    }
+}));
