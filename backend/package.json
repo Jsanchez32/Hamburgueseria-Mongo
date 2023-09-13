@@ -1,21 +1,18 @@
 {
-  "name": "backend",
+  "name": "mongoclient",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "endpints.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "start":"nodemon index.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongodb": "^6.0.0"
-  },
-  "devDependencies": {
+    "mongodb": "^6.0.0",
     "nodemon": "^3.0.1"
   }
 }
