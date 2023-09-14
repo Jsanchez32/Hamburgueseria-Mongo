@@ -1,0 +1,344 @@
+{
+	"info": {
+		"_postman_id": "fdd51ef5-5719-49c2-8f4e-7ce3dd5f1072",
+		"name": "Hamburgueseria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28089195",
+		"_collection_link": "https://speeding-satellite-388982.postman.co/workspace/campus~b2a833eb-be71-45b7-9a71-fef28c36354d/collection/28089195-fdd51ef5-5719-49c2-8f4e-7ce3dd5f1072?action=share&source=collection_link&creator=28089195"
+	},
+	"item": [
+		{
+			"name": "Requerimiento 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req1"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req2"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req3"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req4"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimineto 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req5"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req6"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req7"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req8"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 9",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req9"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req10"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 11",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req11"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 12",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req12"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 13",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req13"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 14",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req14"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 15",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req15"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 16",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req16"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 17",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req17"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 18",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req18"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 19",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req19"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 20",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/20"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 21",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req21"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 22",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req22"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 23",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req23"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 24",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req24"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 25",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req25"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 26",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req26"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 27",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req27"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 28",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req28"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 29",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req29"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 30",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req30"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 33",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req33"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 34",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req34"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 35",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req35"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 36",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req36"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 38",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req38"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimiento 39",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req39"
+			},
+			"response": []
+		},
+		{
+			"name": "Requerimienot 40",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/req40"
+			},
+			"response": []
+		}
+	]
+}
